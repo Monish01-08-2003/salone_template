@@ -49,7 +49,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
     }
 
     .footercontainer {
@@ -74,11 +73,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: white;
         flex-direction: column;
+        color: white;
         border-left: #FFFFFF26 1px solid;
+        gap: 30px;
         border-right: #FFFFFF26 1px solid;
 
+    }
+
+    .middlecontainer>.content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
     }
 </style>
 
@@ -103,38 +110,37 @@
                     </div>
                 </div>
                 <div class="col-md-4 middlecontainer">
-                    <h1>Contact</h1>
+                    <h1>Gentleman's Grooming</h1>
                     <div class="content">
                         <p> <a href="mailto:someone@example.com">
-                                mailto123@gmail.com
+                                <img src="./assets/images/facebook.png" class="facebook" alt="">
                             </a>
                         </p>
                         <p> <a href="#">
-                                8220298718
+                                <img src="./assets/images/instagram.png" class="instagram" alt="">
                             </a>
                         </p>
                         <p class="address">
-                            8502 Preston Rd. Inglewood
+                            <a href="">
+                                <img src="./assets/images/twitter-alt.png" class="twitter" alt="">
+                            </a>
                         </p>
                     </div>
                 </div>
                 <div class="col-md-4 contactsection">
-                    <h1>Contact</h1>
+                    <h1>Working Hour's</h1>
                     <div class="content">
-                        <p> <a href="mailto:someone@example.com">
-                                mailto123@gmail.com
-                            </a>
+                        <p>
+                            Working Days: 9AM - 9PM
                         </p>
-                        <p> <a href="#">
-                                8220298718
-                            </a>
+                        <p>
+                            Saturday: 10AM - 8PM
                         </p>
                         <p class="address">
-                            8502 Preston Rd. Inglewood
+                            Sunday: 9AM-9PM
                         </p>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

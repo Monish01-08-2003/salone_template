@@ -518,7 +518,7 @@
     ?>
     <div class="banner">
         <div class="bannercontent">
-            <h1 class="heading " data-aos="fade-down" data-aos-easing="linear" data-aos-delay="200" data-aos-offset="0">GENTLEMAN'S GROOMING</h1>
+            <h1 class="heading " data-aos="fade-down" data-aos-easing="linear" data-aos-delay="200" data-aos-offset="0">Gentleman's Grooming</h1>
             <p>Salone & spa</p>
         </div>
         <div class="contactcontainer">
